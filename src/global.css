@@ -33,6 +33,16 @@ h6 {
   font-size: 1.125rem;
 }
 
+p {
+  color: var(--body-text);
+  font-size: 1.125rem;
+}
+
 a {
-  color: #503217;
+  color: var(--text-color-heading);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }

@@ -27,7 +27,7 @@ export default function Header() {
         <button className={styles.header__search}>
           <img src="/icons/search.svg" alt="Search" />
         </button>
-        <a className={styles.header__cart}>
+        <a href="/" className={styles.header__cart}>
           <img src="/icons/cart.svg" alt="Cart" />
         </a>
       </div>
