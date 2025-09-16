@@ -7,14 +7,10 @@
 
 html,
 body {
-  height: 100%;
+  height: auto;
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
-
-  display: flex;
-  flex-direction: column;
 }
 
 ol,

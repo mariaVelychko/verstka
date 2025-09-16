@@ -1,9 +1,7 @@
 header {
   width: 100%;
   padding: 30px 200px 30px 200px;
-  height: auto;
   background-color: var(--bg-color-light);
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;

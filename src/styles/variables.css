@@ -1,8 +1,8 @@
 :root {
   --bg-color-light: #eeede7;
-  --bg-color2: #e8e6de;
+  --bg-color-darkneLight: #e8e6de;
   --bg-color-white: #fff;
-  --styled-elements: #e2dfcf;
+  --color-bg-shade: #e2dfcf;
   --text-color-heading: #503217;
   --body-text: #8f7d6a;
   --badge-bg: #d3744a;
