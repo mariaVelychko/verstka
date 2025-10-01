@@ -4,13 +4,18 @@
   justify-content: center;
   width: 100%;
   background-color: var(--bg-color-darkneLight);
+  background-image: url("/public/back_imgs/Vector.svg"),
+    url(/public/back_imgs/Vector2.svg);
+  background-position: left 5px bottom 0px, right 5px top 0px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100px 130px, 130px 140px;
 }
 
 .footer_container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 25px 15px;
+  padding: 35px 20px;
   overflow: hidden;
 }
 
@@ -19,10 +24,17 @@
   gap: 20px;
 }
 
-.footer_pages {
+.foooter_blocks_container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
+
+.foooter_block {
+  flex-direction: column;
+  gap: 20px;
+}
+
 .footer_list {
   display: flex;
   flex-direction: column;
@@ -34,11 +46,12 @@
 
 .footer_list_item {
   font-size: 1rem;
+  max-width: 120px;
+  color: #8f7d6a;
 }
 
-.footer_utility {
-  display: flex;
-  flex-direction: column;
+.footer_list_item:hover {
+  color: var(--a-hover-color);
 }
 
 .footer_brand {
@@ -86,14 +99,50 @@
 }
 
 .footer_separator {
-  margin: 40px 0 30px 0;
+  margin: 20px 0 20px 0;
   width: 100%;
   height: 2px;
   background-color: var(--color-bg-shade);
 }
 
-.footer_contact_data {
+.footer_contact_data_contact {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+}
+
+.footer_contact_data_address {
+  line-height: 1.5;
+}
+
+.footer_bottom_content {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .footer_wrapper {
+    background-position: left 0 bottom 0, right 0 top 0;
+    background-size: 90px 120px, 110px 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_top_content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-position: left 0 bottom 0, right 0 top 0;
+    background-size: 70px 90px, 80px 90px;
+  }
+  .foooter_blocks_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer_block {
+    margin-right: 50px;
+  }
+  .footer_block:last-child {
+    margin-right: 0;
+  }
 }

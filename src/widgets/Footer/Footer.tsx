@@ -5,57 +5,61 @@ export default function Footer() {
     <footer className={styles.footer_wrapper}>
       <div className={styles.footer_container}>
         <div className={styles.footer_top_content}>
-          <nav className={styles.footer_pages}>
-            <h5 className={styles.footer_pages_title}>Pages</h5>
-            <ul className={styles.footer_list}>
-              <li className={styles.footer_list_item}>Home</li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Shop</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">About</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Contact</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Blog</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Privacy policy</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">FAQs</a>
-              </li>
-            </ul>
-          </nav>
+          <div className={styles.foooter_blocks_container}>
+            <nav className={styles.footer_block}>
+              <h5 className={styles.footer_list_title}>Pages</h5>
+              <ul className={styles.footer_list}>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Home</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Shop</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">About</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Contact</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Blog</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Privacy policy</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">FAQs</a>
+                </li>
+              </ul>
+            </nav>
 
-          <nav className={styles.footer_utility}>
-            <h5 className={styles.footer_utility_title}>Utility</h5>
-            <ul className={styles.footer_list}>
-              <li className={styles.footer_list_item}>
-                <a href="/">Style guide</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Instruction</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Changelog</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Licenses</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Link in bio</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Error 404</a>
-              </li>
-              <li className={styles.footer_list_item}>
-                <a href="/">Password protected</a>
-              </li>
-            </ul>
-          </nav>
+            <nav className={styles.footer_block}>
+              <h5 className={styles.footer_list_title}>Utility</h5>
+              <ul className={styles.footer_list}>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Style guide</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Instruction</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Changelog</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Licenses</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Link in bio</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Error 404</a>
+                </li>
+                <li className={styles.footer_list_item}>
+                  <a href="/">Password protected</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
 
           <section className={styles.footer_brand}>
             <div className={styles.footerBrand_container}>
@@ -94,7 +98,7 @@ export default function Footer() {
           <address className={styles.footer_contact_info}>
             <div className={styles.footer_address}>
               <h5 className={styles.footer_contact_title}>Address</h5>
-              <div className={styles.footer_contact_data}>
+              <div className={styles.footer_contact_data_address}>
                 <p className={styles.footer_address_icon}>
                   1640 Parker Rd. Allentown, New Mexico 31134
                 </p>
@@ -102,7 +106,7 @@ export default function Footer() {
             </div>
             <div className={styles.footer_contacts}>
               <h5 className={styles.footer_contact_title}>Contact</h5>
-              <div className={styles.footer_contact_data}>
+              <div className={styles.footer_contact_data_contact}>
                 <p className={styles.footer_email_icon}>
                   Email: hello@gmail.com
                 </p>
