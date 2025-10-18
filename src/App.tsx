@@ -1,20 +1,13 @@
 import "./App.css";
 import Header from "./widgets/Header/Header.tsx";
-import Main from "./pages/Main/main.tsx";
+import HomePage from "./pages/HomePage/HomePage.tsx";
 import Footer from "./widgets/Footer/Footer.tsx";
 
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-        minHeight: "100vh",
-      }}
-    >
+    <div className="app">
       <Header />
-      <Main />
+      <HomePage />
       <Footer />
     </div>
   );

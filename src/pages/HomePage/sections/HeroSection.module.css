@@ -1,0 +1,35 @@
+.section_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.section_container {
+  display: flex;
+  padding: 30px 200px;
+  /* background-color: var(--bg-color-darkneLight); */
+  background-color: #fff;
+}
+
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+.hero_text,
+.hero_img {
+  flex: 1;
+}
+
+.hero_title {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.hero_desc {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
