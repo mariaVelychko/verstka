@@ -73,22 +73,22 @@ export default function Footer() {
               </p>
               <ul className={styles.footer_socialsList}>
                 <li className={styles.footer_list_item}>
-                  <a href="/">
+                  <a href="https://t.me/masha_stt0">
                     <img src="/icons/facebook.svg" alt="Facebook" />
                   </a>
                 </li>
                 <li className={styles.footer_list_item}>
-                  <a href="/">
+                  <a href="https://t.me/masha_stt0">
                     <img src="/icons/instagram.svg" alt="Instagram" />
                   </a>
                 </li>
                 <li className={styles.footer_list_item}>
-                  <a href="/">
+                  <a href="https://t.me/masha_stt0">
                     <img src="/icons/twitter.svg" alt="Twitter" />
                   </a>
                 </li>
                 <li className={styles.footer_list_item}>
-                  <a href="/">
+                  <a href="https://t.me/masha_stt0">
                     <img src="/icons/youtube.svg" alt="YouTube" />
                   </a>
                 </li>

@@ -1,11 +1,32 @@
-.button{
-
+.button {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  background-color: var(--text-color-heading);
+  color: #fff;
+  font-family: "Popins", serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.5s ease, background-color 0.5s ease;
 }
 
-.icon{
-    
+.button:hover {
+  background-color: rgba(80, 50, 23, 0.8);
+  transform: scaleX(1.05) scaleY(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border: none;
 }
 
-.text{
+.icon {
+  width: 20px;
+  height: 20px;
+}
 
+.text {
 }

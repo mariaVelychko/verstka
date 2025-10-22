@@ -4,11 +4,15 @@
   justify-content: center;
   height: auto;
   width: 100%;
+  background-image: url("/back_imgs/Group.svg");
+  background-position: left 0 bottom 0;
+  background-repeat: no-repeat;
+  background-size: 250px 250px;
 }
 
 .section_container {
   display: flex;
-  padding: 30px 200px;
+  padding: 50px 0;
   /* background-color: var(--bg-color-darkneLight); */
   background-color: #fff;
 }
@@ -16,12 +20,14 @@
 .hero_section {
   display: flex;
   justify-content: space-between;
-  /* gap: 20px; */
 }
 
 .hero_text,
 .hero_img {
-  flex: 1;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero_title {
